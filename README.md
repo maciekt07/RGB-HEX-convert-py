@@ -1,5 +1,5 @@
 # RGB-to-HEX-Game
-![preview](https://raw.githubusercontent.com/maciekkoks/RGB-to-HEX-Game/main/preview1.png)
+![preview](https://raw.githubusercontent.com/maciekkoks/RGB-to-HEX-Game-py/main/preview1.png)
 ```py
 import random
 r = random.randint(0,255);
