@@ -3,7 +3,7 @@ r = random.randint(0,255);
 g = random.randint(0,255);
 b = random.randint(0,255);
 solution = '#%02x%02x%02x' % (r, g, b);
-print("replace RGB to HEX game, author: github.com/maciekkoks");
+print("replace RGB to HEX game, author: github.com/maciekt07");
 print("RGB:", r, g, b);
 input1 = input("Enter a hex code:");
 if (input1 == solution or input1 == solution.upper()): 
