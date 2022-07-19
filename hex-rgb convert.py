@@ -5,8 +5,8 @@ def choice1(): # rgb to hex
   r = int(input("R: "))
   g = int(input("G: "))
   b = int(input("B: "))
-  wynik = '#%02x%02x%02x' % (r, g, b);
-  print("rgb", r, g, b, "to hex format is:", wynik) 
+  result = '#%02x%02x%02x' % (r, g, b);
+  print("rgb", r, g, b, "to hex format is: ", result) 
 def choice2(): # hex to rgb
     hex_code = input("enter hex code: ")
     hex_code = hex_code.replace("#", "")
